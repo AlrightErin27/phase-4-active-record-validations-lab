@@ -5,6 +5,7 @@ class CreatePosts < ActiveRecord::Migration[6.1]
       t.text :content
       t.text :summary
       t.string :category
+      t.integer :author_id
 
       t.timestamps
     end
